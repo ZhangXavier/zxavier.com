@@ -11,7 +11,7 @@ draft: false
 
 ## 歌曲
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=25986022&auto=0&height=66"></iframe>
+{{< music auto="https://music.163.com/song?id=25986022" >}}
 
 ## 歌词
 
@@ -33,11 +33,11 @@ draft: false
 
 ## 一些评论
 
-![tree1](tree1.png)
+{{< image src="tree1.png" alt="评论截图一" title="评论截图一">}}
 
 ---
 
-![tree2](tree2.png)
+{{< image src="tree2.png" alt="评论截图二" title="评论截图二">}}
 
 ## 溯源过程
 
@@ -49,8 +49,9 @@ draft: false
 
 后来又百度到了[知乎上的一个回答](https://www.zhihu.com/question/20300080)虽然最后灵媒的出现使气氛有点奇怪，不过前面的考证思路基本还是正确的，在百度上检索确认后基本上我还是比较赞同的： 出处不是上面三个，而是***邱琼写的《这一生木已成舟》***，原连载于红袖添香网站，在书的***第 21 章***，原句如下：
 
->“这是 2001 年的纪念版”，漓江微笑着说，“名字很好听，叫做‘一生之树’。” 他还记得琥珀曾经说过，**如果有来生，要做一棵树，站成永恒、没有悲欢的姿势。一半在尘土里安详，一半在风里飞扬，一半洒落阴凉，一半沐浴阳光。非常沉默非常骄傲，从不依靠从不寻找**，是她的榜样。
->
-> {{< style "text-align: right;" >}}-- _邱琼《这一生木已成舟》_{{< /style >}}
+{{< admonition type=quote >}}
+“这是 2001 年的纪念版”，漓江微笑着说，“名字很好听，叫做‘一生之树’。” 他还记得琥珀曾经说过，**如果有来生，要做一棵树，站成永恒、没有悲欢的姿势。一半在尘土里安详，一半在风里飞扬，一半洒落阴凉，一半沐浴阳光。非常沉默非常骄傲，从不依靠从不寻找**，是她的榜样。
+{{< style "text-align: right;" >}}-- _邱琼《这一生木已成舟》_{{< /style >}}
+{{< /admonition >}}
 
 如果有新的发现我会持续更新，也欢迎大家指正。
