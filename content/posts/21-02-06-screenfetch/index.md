@@ -4,7 +4,7 @@ subtitle: ""
 date: 2021-02-06T14:42:28+08:00
 lastmod: 2021-02-06T14:42:28+08:00
 
-author: ""
+author: "xavier"
 authorLink: ""
 description: "从brew 的 screenfetch 在 Big Sur 上表现不佳，到创建自己到taps"
 
