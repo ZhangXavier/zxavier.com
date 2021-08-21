@@ -20,7 +20,7 @@ draft: false
 
 ## LaTeX Workshop 配置
 
-LaTeX Workshop 在升级到 5.0 版本后，配置上有了一些变动，这也使得网上相关的资料不多。不过据称仅仅是把过去的`tool.chain`改成了`recipe`，应该是一样的。
+LaTeX Workshop 在升级到 5.0 版本后，配置上有了一些变动，这也使得网上相关的资料不多。不过据称仅仅是把过去的 `tool.chain` 改成了 `recipe`，应该是一样的。
 
 ### 编译方式（tool）
 
@@ -67,7 +67,7 @@ LaTeX Workshop 在升级到 5.0 版本后，配置上有了一些变动，这也
     ],
 ```
 
-> 注意：这里添加了xelatex的编译方式，并且是`%DOCFILE%`，这里和网上其他的配置不一样的，不过在我电脑上这样才能正常编译。
+> 注意：这里添加了 xelatex 的编译方式，并且是 `%DOCFILE%`，这里和网上其他的配置不一样的，不过在我电脑上这样才能正常编译。
 
 另外 (关于上述编译方式的一点说明)：
 
@@ -128,7 +128,7 @@ LaTeX Workshop 在升级到 5.0 版本后，配置上有了一些变动，这也
 
 ### 指定编译方式
 
-LaTeX Workshop 可以在 lex 文件的首行指定编译方式（`% !TEX program`）以及主文档（`% !TEX root`）。`% !TEX program`和`% !TEX root`被称为`Magic Command`。
+LaTeX Workshop 可以在 lex 文件的首行指定编译方式（`% !TEX program`）以及主文档（`% !TEX root`）。`% !TEX program` 和 `% !TEX root` 被称为 `Magic Command`。
 
 ## 其他配置
 

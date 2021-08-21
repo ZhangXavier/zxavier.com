@@ -14,12 +14,12 @@ draft: false
 
 ## debug 下载
 
-这是我上传到百度网盘的[debug 下载](http://pan.baidu.com/s/1bprTmkZ)，密码：exi0。
+这是我上传到百度网盘的 [debug 下载](http://pan.baidu.com/s/1bprTmkZ)，密码：exi0。
 
 ## DOSBox 下载
 
-大家可以去[DOSBox 官网](http://www.dosbox.com/)下载，查看详细的文件
-也可以直接下载我上传到百度网盘的[DOSBox](http://pan.baidu.com/s/1c11Kxn6)，密码：syf7。
+大家可以去 [DOSBox 官网](http://www.dosbox.com/)下载，查看详细的文件
+也可以直接下载我上传到百度网盘的 [DOSBox](http://pan.baidu.com/s/1c11Kxn6)，密码：syf7。
 
 ## 安装 DOSBox
 

@@ -4,13 +4,11 @@ subtitle: "关于logrotate的一点东西"
 date: 2021-02-07T11:26:56+08:00
 lastmod: 2021-03-08T11:40:23+08:00
 
+author: "xavier"
 description: "某天 lastb 日志神奇的消失了，竟是默认的 logrotate 配置在捣鬼"
 
 tags: [log,linux,logrotate,lastb,cron]
 categories: []
-
-featuredImage: ""
-featuredImagePreview: ""
 
 draft: false
 ---

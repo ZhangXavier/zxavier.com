@@ -20,9 +20,6 @@ resources:
 featuredImage: ""
 featuredImagePreview: ""
 
-lightgallery: true
-license: ""
-
 draft: true
 ---
 
