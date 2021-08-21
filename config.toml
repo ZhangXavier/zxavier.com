@@ -93,7 +93,7 @@ enableEmoji = true
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-    svgFavicon = "/safari-pinned-tab.svg"
+    svgFavicon = "/favicon.svg"
     # Safari 图标颜色
     iconColor = "#5bbad5"
     # Windows v8-10磁贴颜色
@@ -404,8 +404,8 @@ enableEmoji = true
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = true
-        appId = "7gfP7vYeNAq6TlcYxrwtJkP8-MdYXbMMI"
-        appKey = "0s2riByGawLOk8xPENHp3owf"
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "robohash"
         meta= ""
@@ -414,7 +414,7 @@ enableEmoji = true
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true # false
         serverURLs = ""
         #  emoji 数据文件名称, 默认是 "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
@@ -538,7 +538,7 @@ enableEmoji = true
     enable = true # false
     # Google Analytics
     [params.analytics.google]
-      id = "UA-105581329-1"
+      id = ""
       # 是否匿名化用户 IP
       anonymizeIP = true
     # Fathom Analytics
