@@ -107,4 +107,4 @@ Debian 也在进行这项工作，而 Debian 11 bullseye 将会是最后一个�
 
 ## 其他需要说明的
 
-待续。。。
+接下来将会有一些关于 cloud 内核，bbr2 和 kernel 的关系的内容，待续。。。
