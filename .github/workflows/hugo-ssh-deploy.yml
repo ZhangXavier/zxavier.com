@@ -7,8 +7,9 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
+          lfs: 'true'
           submodules: 'recursive'
 
       - name: Setup Hugo
@@ -25,7 +26,7 @@ jobs:
           HUGO_PARAMS_ANALYTICS_GOOGLE_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: rsync deployments
-        uses: burnett01/rsync-deployments@5.0
+        uses: burnett01/rsync-deployments@5.2
         with:
           switches: -avzr --delete
           path: public/
