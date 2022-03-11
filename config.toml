@@ -425,7 +425,7 @@ enableEmoji = true
         clientSecret = ""
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = true
+        enable = false
         # 已配置为 secrets.LEANCLOUD_APPID
         appId = ""
         # 已配置为 secrets.LEANCLOUD_APPKEY
@@ -509,9 +509,9 @@ enableEmoji = true
         clientSecret = ""
       # DoIt 新增 | 0.2.13 Remark42 评论系统设置
       [params.page.comment.remark42]
-        enable = false
-        host = ""
-        site_id = ""
+        enable = true
+        host = "remark.zxavier.com"
+        site_id = "www.zxavier.com"
         max_shown_comments = 15
         show_email_subscription = true
         simple_view = false
