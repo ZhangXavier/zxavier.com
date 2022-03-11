@@ -21,10 +21,10 @@ jobs:
       - name: Build
         run: hugo --minify
         env:
+          HUGO_PARAMS_PAGE_MAPBOX_ACCESSTOKEN: ${{ secrets.MAPBOX_ACCESSTOKEN }}
           HUGO_PARAMS_PAGE_COMMENT_VALINE_APPID: ${{ secrets.LEANCLOUD_APPID }}
           HUGO_PARAMS_PAGE_COMMENT_VALINE_APPKEY: ${{ secrets.LEANCLOUD_APPKEY }}
           HUGO_PARAMS_ANALYTICS_GOOGLE_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
-
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.2
         with:
