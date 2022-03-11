@@ -571,8 +571,10 @@ enableEmoji = true
 
   # 网站验证代码, 用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
+    # 已配置为 secrets.VERIFICATION_GOOGLE
     google = ""
     bing = ""
+    # 已配置为 secrets.VERIFICATION_YANDEX
     yandex = ""
     pinterest = ""
     baidu = ""

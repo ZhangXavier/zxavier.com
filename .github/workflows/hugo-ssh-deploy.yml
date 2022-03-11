@@ -25,6 +25,9 @@ jobs:
           HUGO_PARAMS_PAGE_COMMENT_VALINE_APPID: ${{ secrets.LEANCLOUD_APPID }}
           HUGO_PARAMS_PAGE_COMMENT_VALINE_APPKEY: ${{ secrets.LEANCLOUD_APPKEY }}
           HUGO_PARAMS_ANALYTICS_GOOGLE_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+          HUGO_PARAMS_VERIFICATION_GOOGLE: ${{ secrets.VERIFICATION_GOOGLE }}
+          HUGO_PARAMS_VERIFICATION_YANDEX: ${{ secrets.VERIFICATION_YANDEX }}
+
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.2
         with:
