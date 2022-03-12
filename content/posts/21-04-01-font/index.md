@@ -51,15 +51,10 @@ draft: true
 
 ### unhint
 
-unhint 是不微调的 适合 macOS
+- unhint 表示字体是不微调的，适合在 macOS 上使用。
+- 微调的适合 Windows 和 Linux
 
-微调的适合 Windows 和 Linux
-
-### 字体说明
-
-需要安装的字体
-
-按粗细排列 感觉 extraight 和 light 太细了 日常用不到
+### 字体粗细相关
 
 | 字体 | 说明 | 备注 |
 | :---: | :---: | :--- |
@@ -67,59 +62,39 @@ unhint 是不微调的 适合 macOS
 | light | 细的 |  |
 | regular | 正常的 |  |
 | semibold | 稍微有点粗的 |  |
-| bold | 粗的 |  |
-| italic | 倾斜的 | 这样斜体可以显示为手写体 |
+| bold | **粗的** |  |
+| italic | 倾斜的 | 在一些编辑器里面可以显示为手写体 |
 
-可以和上面组合 最好一起安
-首先 SC 就是简体中文 选这个就 ok
+### Serif
 
-slab 是衬线 就是字母笔画头上有没有小短线 根据喜欢选ok
+衬线，指的是字母笔画头上有没有小短线。具体说明可以看 [维基百科 -- 衬线体](https://zh.wikipedia.org/zh-hans/%E8%A1%AC%E7%BA%BF%E4%BD%93)。
 
-sarasa-mono 安装后显示为 等距更纱黑体 是全角的中文省略号，没必要安装，因为用于编程才需要等距，在编程时不需要全角的中文省略号
+{{< image src="serif-en.png" alt="serif-en" title="衬线体-英文" >}}
+{{< image src="serif-zh.png" alt="serif-zh" title="衬线体-中文" >}}
 
-sarasa-gothic 安装后显示为 更纱黑体 是全角的中文省略号和引号，可以安装，因为都是全角的，日常用很好
+### 关于 sarasa 的补充说明
 
-sarasa-ui 安装后显示为 更纱黑体ui 是全角中文省略号和半角引号，相比下 gothic 更适合一些，因为只有一部分是全角的
+对于 sarasa 需要安装的字体。
 
-sarasa-fixed 安装后显示为 sarasa-fixed 是无连字的
+首先 SC 就是简体中文，选这个就 ok。
 
-sarasa-term 安装后显示为 sarasa-term 是有连字的 编程可以优先选这个
+其次，slab 就是{{< relref "#Serif" >}}衬线，这个在上面已经介绍过了。
 
-What are the names?
+`sarasa-mono` 安装后显示为`等距更纱黑体`，其特点是全角的中文省略号，没必要安装，因为用于编程才需要等距，在编程时不需要全角的中文省略号。
 
-Style dimension
+`sarasa-gothic` 安装后显示为 `更纱黑体` 是全角的中文省略号和引号，可以安装，因为都是全角的，适合日常用。
 
-Latin/Greek/Cyrillic character set being Inter
+`sarasa-ui` 安装后显示为 `更纱黑体ui` 是全角中文省略号和半角引号，相比下 gothic 更适合一些，因为只有一部分是全角的。
 
-Quotes (“”) are full width —— Gothic
+`sarasa-fixed` 安装后显示为，是不支持连字的。
 
-Quotes (“”) are narrow —— UI
+`sarasa-term` 安装后显示为，是支持连字的，编程可以优先选这个。
 
-Latin/Greek/Cyrillic character set being Iosevka
-
-Have ligature, Em dashes (——) are full width —— Mono
-
-Have ligature, Em dashes (——) are half width —— Term
-
-No ligature, Em dashes (——) are half width —— Fixed
-
-Orthography dimension
-
-CL: Classical orthography
-
-SC, TC, J, K, HC: Regional orthography, following Source Han Sans notations.
-
-叫什么名字
-
-样式尺寸
-
-拉丁/希腊/西里尔字符集为国际
+其后缀的意义如下：
 
 引号（“”）为全角 —— Gothic
 
 引号（“”）很窄 —— UI
-
-拉丁文/希腊文/西里尔文字符集为Iosevka
 
 有连字，Em破折号（----）为全宽 —— Mono
 
