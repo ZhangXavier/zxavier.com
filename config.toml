@@ -67,8 +67,8 @@ enableEmoji = true
     weight = 5
 
 [params]
-  # DoIt 更改 | 0.2.0 DoIt 主题版本
-  version = "0.2.X"
+  # DoIt 更改 | 0.3.0 DoIt 主题版本
+  version = "0.3.X"
   # 网站描述
   description = "无名之辈的自留地"
   # 网站关键词
@@ -86,6 +86,10 @@ enableEmoji = true
   images = ["/favicon-32x32.png"]
   # DoIt 新增 | 0.2.11 开启 PWA 支持
   enablePWA = true # false
+  # [试验性功能] 缓存图床图片，详情请见：https://github.com/HEIGE-PCloud/DoIt/pull/860#issue-1574342372
+  cacheRemoteImages = false
+  # DoIt 新增 | 0.2.14 版权信息
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # DoIt 新增 | 0.2.0 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
