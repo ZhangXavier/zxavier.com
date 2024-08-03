@@ -4,7 +4,7 @@ subtitle: "关于 rsyslog 的一点东西"
 date: 2021-02-08T11:38:56+08:00
 lastmod: 2021-03-08T11:38:56+08:00
 
-author: "xavier"
+authors: [xavier]
 description: "之前消失的 lastb 我们找到了“捣乱份子” logrotate 。这次没被记录的 cron 日志，背后又是因为谁呢？"
 
 tags: [log,linux,rsyslog,cron]

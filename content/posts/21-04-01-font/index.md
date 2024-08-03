@@ -4,7 +4,7 @@ subtitle: "由更纱字体到更多"
 date: 2021-04-01T18:27:44+08:00
 lastmod: 2021-04-01T18:27:44+08:00
 
-author: "xavier"
+authors: [xavier]
 authorLink: ""
 description: ""
 

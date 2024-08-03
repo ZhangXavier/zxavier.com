@@ -3,7 +3,7 @@ title: "Hello World"
 date: 2016-09-26T21:42:05+08:00
 lastmod: 2021-01-31T21:42:05+08:00
 
-author: "xavier"
+authors: [xavier]
 description: "今天是博客上线的第一天，在此纪念。"
 
 tags: [hugo]

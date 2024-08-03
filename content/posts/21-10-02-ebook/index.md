@@ -4,7 +4,7 @@ subtitle: ""
 date: 2021-10-02T15:38:55+08:00
 lastmod: 2022-03-10T15:38:55+08:00
 
-author: "xavier"
+authors: [xavier]
 authorLink: ""
 description: ""
 

@@ -4,7 +4,7 @@ subtitle: ""
 date: 2021-02-06T14:20:35+08:00
 lastmod: 2021-03-02T11:30:05+08:00
 
-author: "xavier"
+authors: [xavier]
 authorLink: ""
 description: " MacOS 自带 Vim 版本较低，而且不能方便的升级。这对于 Vim 使用者我们来说是极为不方便的。"
 

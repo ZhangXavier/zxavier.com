@@ -4,7 +4,7 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 
-author: ""
+authors: []
 authorLink: ""
 description: ""
 

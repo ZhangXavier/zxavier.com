@@ -4,7 +4,7 @@ subtitle: "在 macOS 上安装 JDK"
 date: 2021-04-01T16:10:57+08:00
 lastmod: 2021-04-01T16:10:57+08:00
 
-author: "xavier"
+authors: [xavier]
 authorLink: ""
 description: ""
 

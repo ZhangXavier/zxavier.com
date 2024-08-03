@@ -4,7 +4,7 @@ subtitle: "找回千千静听的歌词配色"
 date: 2018-11-29T16:40:39+08:00
 lastmod: 2021-04-29T16:40:39+08:00
 
-author: "xavier"
+authors: [xavier]
 description: ""
 
 tags: [网易云,neteasemusic,千千静听]

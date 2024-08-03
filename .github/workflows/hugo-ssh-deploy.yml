@@ -7,13 +7,12 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          lfs: 'true'
-          submodules: 'recursive'
+          lfs: true
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: latest
           extended: true
@@ -33,9 +32,9 @@ jobs:
           HUGO_PARAMS_VERIFICATION_YANDEX: ${{ secrets.VERIFICATION_YANDEX }}
 
       - name: rsync deployments
-        uses: burnett01/rsync-deployments@5.2
+        uses: burnett01/rsync-deployments@7.0.1
         with:
-          switches: -avz --delete
+          switches: -azr -vv --checksum --delete
           path: public/
           remote_path: ${{ secrets.REMOTE_TARGET }}
           remote_host: ${{ secrets.REMOTE_HOST }}

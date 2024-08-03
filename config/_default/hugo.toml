@@ -22,12 +22,12 @@ enableEmoji = true
 
 # theme
 # 主题
-theme = "DoIt"
+# theme = "DoIt"
 # themes directory
 # 主题目录
-themesDir = "../.."
+# themesDir = "../.."
 
 # Or, when using theme as hugo module
-# [module]
-# [[module.imports]]
-# path = "github.com/HEIGE-PCloud/DoIt"
+[module]
+  [[module.imports]]
+    path = "github.com/HEIGE-PCloud/DoIt"

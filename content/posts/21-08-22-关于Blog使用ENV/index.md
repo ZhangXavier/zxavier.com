@@ -4,7 +4,7 @@ subtitle: "使用 secrets 部署 hugo"
 date: 2021-08-22T15:17:27+08:00
 lastmod: 2022-03-10T15:17:27+08:00
 
-author: "xavier"
+authors: [xavier]
 authorLink: ""
 description: ""
 

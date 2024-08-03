@@ -4,7 +4,7 @@ subtitle: "从 Debian10 升级到 Debian11"
 date: 2021-08-22T10:39:23+08:00
 lastmod: 2021-08-22T10:39:23+08:00
 
-author: "xavier"
+authors: [xavier]
 authorLink: ""
 description: ""
 
