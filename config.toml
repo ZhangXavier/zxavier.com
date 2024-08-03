@@ -613,6 +613,7 @@ enableEmoji = true
     [params.analytics.umami]
       data_website_id = ""
       src = ""
+      data_host_url = ""
       data_domains = ""
     # DoIt 新增 | 0.2.13 Plausible Analytics
     [params.analytics.plausible]
