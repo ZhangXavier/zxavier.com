@@ -20,7 +20,8 @@ draft: false
 
 在 `Big Sur` 上使用 `brew` 安装了 `screenfetch`，结果发现输出的图标却是 `unix`。
 
-{{< image src="unix-logo.webp" alt="unix-logo" title="unix-logo" >}}
+{{< image src="unix-logo.webp" caption="unix-logo" alt="unix-logo" title="unix-logo" >}}
+
 
 在 `Github` 上一看，原来是因为 `Big Sur` 的ProductName由 `Mac OS X` 更改为了 `macOS`。当然，这个问题已经在最新的开发版里解决掉了。[#692 (comment)](https://github.com/KittyKatt/screenFetch/issues/692#issuecomment-726631900)
 
