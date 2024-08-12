@@ -22,7 +22,6 @@ draft: false
 
 {{< image src="unix-logo.webp" caption="unix-logo" alt="unix-logo" title="unix-logo" >}}
 
-
 在 `Github` 上一看，原来是因为 `Big Sur` 的ProductName由 `Mac OS X` 更改为了 `macOS`。当然，这个问题已经在最新的开发版里解决掉了。[#692 (comment)](https://github.com/KittyKatt/screenFetch/issues/692#issuecomment-726631900)
 
 由于 `screenfetch` 并没有发布新的版本号，`brew` 仓库里还是老版本，所以出现了问题。按照 `screenfetch` 的 wiki [Installation](https://github.com/KittyKatt/screenFetch/wiki/Installation) 下载 `dev` 版本的 `screenfetch-dev`，替换掉 `/usr/local/Cellar/screenfetch/3.9.1/bin` 下的 `screenfetch`，问题即可成功解决。
