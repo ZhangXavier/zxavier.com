@@ -3,13 +3,12 @@ title: "{{ replace .Name "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-
 authors: []
-authorLink: ""
 description: ""
 
 tags: []
 categories: []
+series: []
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -19,6 +18,9 @@ resources:
   src: ""
 featuredImage: ""
 featuredImagePreview: ""
+
+toc:
+  enable: true
 
 draft: true
 ---
