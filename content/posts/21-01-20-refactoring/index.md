@@ -9,7 +9,7 @@ description: "博客由 Hexo 转到 Hugo，并重启更新"
 tags: [博客本体,hugo]
 categories: [生活随笔]
 
-featuredImage: "old_site.png"
+featuredImage: "old_site.webp"
 
 draft: false
 ---

@@ -11,7 +11,7 @@ description: " MacOS 自带 Vim 版本较低，而且不能方便的升级。这
 tags: [brew,mac,vim]
 categories: []
 
-featuredImagePreview: "new-vim.png"
+featuredImagePreview: "new-vim.webp"
 
 draft: false
 ---
@@ -20,7 +20,7 @@ draft: false
 
 MacOS 自带 Vim 版本一般并不高，且不能方便的升级。这对于 Vim 使用者我们来说是极为不方便的。
 
-{{< image src="old-vim.png" caption="old vim version" alt="old-vim" title="old-vim" >}}
+{{< image src="old-vim.webp" caption="old vim version" alt="old-vim" title="old-vim" >}}
 
 可以看到这里默认的 `vim` 目录为 `/usr/bin/vim`。
 
@@ -34,6 +34,6 @@ brew install --cask macvim
 export PATH=/usr/local/bin:$PATH
 ```
 
-{{< image src="new-vim.png" caption="new vim version" alt="new-vim" title="new-vim" >}}
+{{< image src="new-vim.webp" caption="new vim version" alt="new-vim" title="new-vim" >}}
 
 此时 `mvim` 与 `vim` 均是打开 brew 安装的 vim 了。而 `gvim` 则是打开 `gui` 版本的 `vim`

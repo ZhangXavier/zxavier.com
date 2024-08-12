@@ -33,11 +33,11 @@ draft: false
 
 ## 一些评论
 
-{{< image src="tree1.png" alt="评论截图一" title="评论截图一" >}}
+{{< image src="tree1.webp" alt="评论截图一" title="评论截图一" >}}
 
 ---
 
-{{< image src="tree2.png" alt="评论截图二" title="评论截图二" >}}
+{{< image src="tree2.webp" alt="评论截图二" title="评论截图二" >}}
 
 ## 溯源过程
 

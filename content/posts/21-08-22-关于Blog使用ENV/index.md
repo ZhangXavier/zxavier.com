@@ -41,7 +41,7 @@ draft: true
 
 现在的 CI/CD 工具，都有 Secrets 功能来存储一些私密的配置项，在编译部署的时候来读取，如 github 在 setting 中的 secrets、drone 在 setting 中的 secrets。
 
-{{< image src="secrets.png" caption="secrets" alt="secrets" title="secrets" >}}
+{{< image src="secrets.webp" caption="secrets" alt="secrets" title="secrets" >}}
 
 只要我们使用这些来配置 hugo 的 config.toml 既可。而 Hugo 是支持[使用系统环境变量配置](https://gohugo.io/getting-started/configuration/#configure-with-environment-variables)键值的。只需要将想配置的键，转换成大写，使用`_`来表示层级，再加前缀 `HUGO_` 即可。环境变量将覆盖在 `config.toml` 中的配置项。
 
@@ -55,7 +55,7 @@ env HUGO_PARAMS_PAGE_COMMENT_VALINE_APPID="123" hugo server
 
 现在就可以直接在 Secrets 中设置经过测试的配置了：
 
-{{< image src="secret.png" caption="secret" alt="secret" title="secret" >}}
+{{< image src="secret.webp" caption="secret" alt="secret" title="secret" >}}
 
 然后在 GitHub-actions 中引用配置好的 Secrets：
 

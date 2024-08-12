@@ -30,9 +30,9 @@ mount c d:\debug
 c:
 ```
 
-{{< image src="DOSBoxconf.png" caption="加入后如图所示" >}}
+{{< image src="DOSBoxconf.webp" caption="加入后如图所示" >}}
 
 在 D 盘的根目录下新建 debug 文件夹，把之前下载的 dubug 放入其中。
 启动 DOSBox, 输入 debug，就可以使用了:
 
-{{< image src="DOSBox.png" >}}
+{{< image src="DOSBox.webp" >}}

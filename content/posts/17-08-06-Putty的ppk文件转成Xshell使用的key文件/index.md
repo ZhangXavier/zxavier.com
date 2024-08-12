@@ -12,7 +12,7 @@ draft: false
 
 ## 错误截图
 
-{{< image src="putty1.jpg" caption="错误截图" title="错误截图" >}}
+{{< image src="putty1.webp" caption="错误截图" title="错误截图" >}}
 
 这个错误表明导入的 private key 文件不是 XShell 所支持的，初步猜测有三种可能：
 
@@ -24,13 +24,13 @@ draft: false
 
 1. 找到 Putty 安装目录下的 PUTTYGEN.EXE，打开它，选择 “Conversions”->“Import key”，选择要导入的 ppk 文件。导入后，下面的 “Export OpenSSH key” 选项由灰色变成可用状态，点击它，导出一个自己命名的文件，这个文件默认没有后缀名。导出时提示没有设置密码，点击 “是” 或者自己设置一个密码吧。
 
-{{< image src="putty2.jpg" caption="导出文件" title="导出文件" >}}
+{{< image src="putty2.webp" caption="导出文件" title="导出文件" >}}
 
 现在导出的这个文件就是 Xshell 登录需要的文件了。
 
 2. 在 Xshell 中新建一个 Session 或修改已有的 Session 配置（Properties），找到 “Connection”->“Authentication”，Method 选择 “Public Key”，User Name 填写要登录的用户名，点击 Browse 按钮，然后 Import 刚才 Putty 导出的文件，由于这个文件我们刚才没有设置密码，所以 Passphrase 不用填，完成后如下。这样就由使用 Putty 登录转成使用自己熟悉的 Xshell 登录了。
 
-{{< image src="putty3.jpg" caption="Xshell登陆" title="Xshell登陆" >}}
+{{< image src="putty3.webp" caption="Xshell登陆" title="Xshell登陆" >}}
 
 ## 总结
 

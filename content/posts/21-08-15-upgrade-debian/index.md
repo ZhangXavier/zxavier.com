@@ -11,7 +11,7 @@ description: ""
 tags: [linux,debian,buster,bullseye]
 categories: []
 
-featuredImage: "bullseye.png"
+featuredImage: "bullseye.webp"
 
 draft: false
 ---
@@ -95,15 +95,15 @@ Debian 也在进行这项工作，而 Debian 11 bullseye 将会是最后一个�
 
 1. 先用 `ls -l /` 看看现在是不是已经合并了。如下图，即还没合并
 
-{{< image src="merge.png" caption="merge" alt="merge" title="merge" >}}
+{{< image src="merge.webp" caption="merge" alt="merge" title="merge" >}}
 
 2. 如果没有的话，使用 `apt update && apt install usrmerge` 安装 `usrmerge`。安装后，会出现如下提示，选择 `YES` 即会开始自动合并。
 
-{{< image src="usrmerge.png" caption="usrmerge" alt="usrmerge" title="usrmerge" >}}
+{{< image src="usrmerge.webp" caption="usrmerge" alt="usrmerge" title="usrmerge" >}}
 
 3. 自动合并后，再使用 `ls -l /` 查看，会发现已经合并好了。（注意安装后 usrmerge 并不是一个命令，安装后是 `/usr/lib/convert-etc-shells` 和 `/usr/lib/convert-usrmerge` 两个脚本文件）
 
-{{< image src="merged.png" caption="merged" alt="merged" title="merged" >}}
+{{< image src="merged.webp" caption="merged" alt="merged" title="merged" >}}
 
 ## 其他需要说明的
 

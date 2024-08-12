@@ -4,7 +4,7 @@ date: 2016-11-26T21:32:56+08:00
 lastmod: 2016-11-26T21:32:56+08:00
 resources:
 - name: "featured-image"
-  src: "castro.jpg"
+  src: "castro.webp"
 categories: [生活随笔]
 tags: [卡斯特罗,理想]
 draft: false

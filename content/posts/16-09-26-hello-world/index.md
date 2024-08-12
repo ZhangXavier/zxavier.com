@@ -9,7 +9,7 @@ description: "今天是博客上线的第一天，在此纪念。"
 tags: [hugo]
 categories: [生活随笔]
 
-featuredImage: "helloworld.jpg"
+featuredImage: "helloworld.webp"
 
 draft: false
 ---

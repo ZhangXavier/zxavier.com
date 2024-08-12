@@ -11,7 +11,7 @@ description: "从 brew 的 screenfetch 在 Big Sur 上表现不佳，到创建�
 tags: [brew,screenfetch,mac]
 categories: []
 
-featuredImagePreview: "macos-logo.png"
+featuredImagePreview: "macos-logo.webp"
 
 draft: false
 ---
@@ -20,7 +20,7 @@ draft: false
 
 在 `Big Sur` 上使用 `brew` 安装了 `screenfetch`，结果发现输出的图标却是 `unix`。
 
-{{< image src="unix-logo.png" alt="unix-logo" title="unix-logo" >}}
+{{< image src="unix-logo.webp" alt="unix-logo" title="unix-logo" >}}
 
 在 `Github` 上一看，原来是因为 `Big Sur` 的ProductName由 `Mac OS X` 更改为了 `macOS`。当然，这个问题已经在最新的开发版里解决掉了。[#692 (comment)](https://github.com/KittyKatt/screenFetch/issues/692#issuecomment-726631900)
 
@@ -42,8 +42,8 @@ brew install ZhangXavier/xtaps/screenfetch
 
 新版安装后，问题已经得到了解决：
 
-{{< image src="macos-logo.png" caption="Big Sur" alt="macos-logo" title="macos-logo" >}}
+{{< image src="macos-logo.webp" caption="Big Sur" alt="macos-logo" title="macos-logo" >}}
 
 当然在 `Catalina` 里，也是正常的：
 
-{{< image src="osx-logo.png" caption="Catalina" alt="macos-logo" title="macos-logo" >}}
+{{< image src="osx-logo.webp" caption="Catalina" alt="macos-logo" title="macos-logo" >}}

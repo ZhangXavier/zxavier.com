@@ -69,8 +69,8 @@ draft: true
 
 衬线，指的是字母笔画头上有没有小短线。具体说明可以看 [维基百科 -- 衬线体](https://zh.wikipedia.org/zh-hans/%E8%A1%AC%E7%BA%BF%E4%BD%93)。
 
-{{< image src="serif-en.png" alt="serif-en" title="衬线体-英文" >}}
-{{< image src="serif-zh.png" alt="serif-zh" title="衬线体-中文" >}}
+{{< image src="serif-en.webp" alt="serif-en" title="衬线体-英文" >}}
+{{< image src="serif-zh.webp" alt="serif-zh" title="衬线体-中文" >}}
 
 ### 关于 sarasa 的补充说明
 
